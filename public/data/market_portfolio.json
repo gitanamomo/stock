@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-05-31T08:00:00",
+  "generatedBy": "scripts/update_data.py (sample)",
+  "indices": [
+    { "code": "000001", "name": "上证指数",   "price": 3356.28, "change": 12.37,  "changePercent": 0.37,  "_stale": false },
+    { "code": "399001", "name": "深证成指",   "price": 10827.19, "change": -28.54, "changePercent": -0.26, "_stale": false },
+    { "code": "399006", "name": "创业板指",   "price": 2187.32, "change": 8.91,   "changePercent": 0.41,  "_stale": false },
+    { "code": "000300", "name": "沪深300",    "price": 3984.55, "change": -5.82,  "changePercent": -0.15, "_stale": false },
+    { "code": "IXIC",   "name": "纳斯达克",   "price": 19254.80, "change": 143.60, "changePercent": 0.75,  "_stale": false },
+    { "code": "XAU",    "name": "黄金 (XAU)", "price": 2642.50, "change": 18.30,  "changePercent": 0.70,  "_stale": false },
+    { "code": "XAG",    "name": "白银 (XAG)", "price": 31.28,   "change": -0.42,  "changePercent": -1.32, "_stale": false }
+  ],
+  "holdings": [
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "price": 1628.50,
+      "changePercent": 1.23,
+      "technicalSignal": "均线多头排列 · MACD金叉 · 布林偏强区域",
+      "recommendation": "持有待涨",
+      "indicators": {
+        "ma": { "MA5": 1615.30, "MA10": 1608.20, "MA20": 1595.80, "MA50": 1570.40 },
+        "macd": { "macd": 12.45, "signal": 8.92, "histogram": 3.53 },
+        "boll": { "upper": 1650.20, "middle": 1595.80, "lower": 1541.40 },
+        "gann": {
+          "adr": 28.50,
+          "support_levels": [
+            { "pivot_date": "2026-05-20", "pivot_price": 1580.00, "days_ago": 8, "1x1": 1620.00, "1x2": 1652.50, "2x1": 1604.75 }
+          ],
+          "resistance_levels": [],
+          "active_support": { "line": "1x1", "price": 1620.00, "pivot_date": "2026-05-20", "pivot_price": 1580.00, "distance_pct": 0.52 },
+          "active_resistance": null
+        }
+      },
+      "aiSentiment": {
+        "code": "600519",
+        "name": "贵州茅台",
+        "sentiment": "bullish",
+        "sentimentScore": 0.65,
+        "confidence": 0.80,
+        "summary": "综合多源新闻分析，近期白酒板块回暖叠加公司回购计划推进，基本面偏积极。",
+        "analyzedAt": "2026-05-31T08:00:00",
+        "model": null,
+        "news": [
+          {
+            "id": "n1-600519",
+            "title": "贵州茅台2025年度股东大会释放积极信号，回购计划持续推进",
+            "source": "证券时报",
+            "publishDate": "2026-05-30",
+            "directUrl": "https://www.stcn.com/article/detail/1234567.html",
+            "sentiment": "positive",
+            "summary": "茅台在股东大会上表示将继续推进股份回购，并维持高分红政策，机构普遍给予买入评级。",
+            "verificationStatus": "verified"
+          },
+          {
+            "id": "n2-600519",
+            "title": "白酒板块整体回暖，春节动销数据超预期",
+            "source": "21世纪经济报道",
+            "publishDate": "2026-05-29",
+            "directUrl": "https://m.21jingji.com/article/20260529/herald/23456.html",
+            "sentiment": "positive",
+            "summary": "春节期间白酒终端动销同比增长8%，其中高端白酒表现最为亮眼。",
+            "verificationStatus": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "code": "000858",
+      "name": "五粮液",
+      "price": 148.32,
+      "changePercent": -0.87,
+      "technicalSignal": "均线交织 · MACD柱缩小 · 布林偏弱区域",
+      "recommendation": "观望为主",
+      "indicators": {
+        "ma": { "MA5": 149.10, "MA10": 149.80, "MA20": 150.50, "MA50": 152.30 },
+        "macd": { "macd": -0.85, "signal": -0.42, "histogram": -0.43 },
+        "boll": { "upper": 153.20, "middle": 150.50, "lower": 147.80 },
+        "gann": {
+          "adr": 3.20,
+          "support_levels": [],
+          "resistance_levels": [
+            { "pivot_date": "2026-05-22", "pivot_price": 152.80, "days_ago": 6, "1x1": 147.20, "1x2": 144.00, "2x1": 149.50 }
+          ],
+          "active_support": null,
+          "active_resistance": { "line": "2x1", "price": 149.50, "pivot_date": "2026-05-22", "pivot_price": 152.80, "distance_pct": 0.79 }
+        }
+      },
+      "aiSentiment": {
+        "code": "000858",
+        "name": "五粮液",
+        "sentiment": "neutral",
+        "sentimentScore": 0.05,
+        "confidence": 0.45,
+        "summary": "近期新闻面较为平淡，缺乏明确的利好或利空催化剂，等待进一步信号。",
+        "analyzedAt": null,
+        "model": null,
+        "news": [
+          {
+            "id": "n1-000858",
+            "title": "部分AI生成的摘要内容——缺少原始链接的新闻示例",
+            "source": "未知来源",
+            "publishDate": "",
+            "directUrl": "",
+            "sentiment": "neutral",
+            "summary": "此条新闻因缺少发布日期和原文链接，将被标记为待人工核验。",
+            "verificationStatus": "待人工核验"
+          }
+        ]
+      }
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "price": 216.45,
+      "changePercent": 2.15,
+      "technicalSignal": "均线多头排列 · MACD柱放大 · 布林偏强区域",
+      "recommendation": "积极看多",
+      "indicators": {
+        "ma": { "MA5": 212.30, "MA10": 208.50, "MA20": 203.80, "MA50": 195.20 },
+        "macd": { "macd": 5.82, "signal": 3.15, "histogram": 2.67 },
+        "boll": { "upper": 220.40, "middle": 203.80, "lower": 187.20 },
+        "gann": {
+          "adr": 6.80,
+          "support_levels": [
+            { "pivot_date": "2026-05-15", "pivot_price": 198.50, "days_ago": 11, "1x1": 212.10, "1x2": 218.90, "2x1": 207.15 }
+          ],
+          "resistance_levels": [],
+          "active_support": { "line": "1x2", "price": 218.90, "pivot_date": "2026-05-15", "pivot_price": 198.50, "distance_pct": 1.13 },
+          "active_resistance": null
+        }
+      },
+      "aiSentiment": {
+        "code": "300750",
+        "name": "宁德时代",
+        "sentiment": "bullish",
+        "sentimentScore": 0.78,
+        "confidence": 0.85,
+        "summary": "新一代凝聚态电池技术发布，多家券商上调目标价，技术面与基本面共振。",
+        "analyzedAt": "2026-05-31T08:00:00",
+        "model": null,
+        "news": [
+          {
+            "id": "n1-300750",
+            "title": "宁德时代发布新一代凝聚态电池，能量密度突破500Wh/kg",
+            "source": "财联社",
+            "publishDate": "2026-05-31",
+            "directUrl": "https://www.cls.cn/detail/1234567",
+            "sentiment": "positive",
+            "summary": "新技术路线将显著提升电动车续航能力，多家券商上调宁德时代目标价，认为其在全球竞争中占据技术领先地位。",
+            "verificationStatus": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "code": "00700",
+      "name": "腾讯控股",
+      "price": 385.60,
+      "changePercent": -1.52,
+      "technicalSignal": "均线空头排列 · MACD死叉 · 触及布林下轨",
+      "recommendation": "减仓回避",
+      "indicators": {
+        "ma": { "MA5": 390.20, "MA10": 395.80, "MA20": 400.50, "MA50": 410.30 },
+        "macd": { "macd": -8.30, "signal": -5.20, "histogram": -3.10 },
+        "boll": { "upper": 415.60, "middle": 400.50, "lower": 385.40 },
+        "gann": {
+          "adr": 8.50,
+          "support_levels": [],
+          "resistance_levels": [
+            { "pivot_date": "2026-05-25", "pivot_price": 405.00, "days_ago": 4, "1x1": 397.50, "1x2": 389.00, "2x1": 401.25 },
+            { "pivot_date": "2026-05-10", "pivot_price": 420.60, "days_ago": 14, "1x1": 398.30, "1x2": 381.90, "2x1": 406.45 }
+          ],
+          "active_support": null,
+          "active_resistance": { "line": "1x2", "price": 389.00, "pivot_date": "2026-05-25", "pivot_price": 405.00, "distance_pct": 0.88 }
+        }
+      },
+      "aiSentiment": {
+        "code": "00700",
+        "name": "腾讯控股",
+        "sentiment": "bearish",
+        "sentimentScore": -0.55,
+        "confidence": 0.70,
+        "summary": "Q4财报前瞻显示游戏业务承压，广告收入增速放缓，短期情绪偏空。",
+        "analyzedAt": "2026-05-31T08:00:00",
+        "model": null,
+        "news": [
+          {
+            "id": "n1-00700",
+            "title": "腾讯Q4财报前瞻：游戏业务承压，广告收入增速放缓引担忧",
+            "source": "华尔街见闻",
+            "publishDate": "2026-05-30",
+            "directUrl": "https://wallstreetcn.com/articles/3745678",
+            "sentiment": "negative",
+            "summary": "分析师预计腾讯Q4游戏收入同比下滑3%，广告业务增速降至个位数，短期股价面临调整压力。",
+            "verificationStatus": "verified"
+          }
+        ]
+      }
+    },
+    {
+      "code": "00981",
+      "name": "中芯国际",
+      "price": 42.18,
+      "changePercent": 3.47,
+      "technicalSignal": "均线多头排列 · MACD金叉 · Gann1x1支撑@40.80",
+      "recommendation": "积极看多",
+      "indicators": {
+        "ma": { "MA5": 40.85, "MA10": 39.50, "MA20": 38.20, "MA50": 36.80 },
+        "macd": { "macd": 1.85, "signal": 0.95, "histogram": 0.90 },
+        "boll": { "upper": 43.50, "middle": 38.20, "lower": 32.90 },
+        "gann": {
+          "adr": 1.35,
+          "support_levels": [
+            { "pivot_date": "2026-05-12", "pivot_price": 35.60, "days_ago": 13, "1x1": 40.80, "1x2": 44.55, "2x1": 38.95 }
+          ],
+          "resistance_levels": [],
+          "active_support": { "line": "1x1", "price": 40.80, "pivot_date": "2026-05-12", "pivot_price": 35.60, "distance_pct": 3.27 },
+          "active_resistance": null
+        }
+      },
+      "aiSentiment": {
+        "code": "00981",
+        "name": "中芯国际",
+        "sentiment": "bullish",
+        "sentimentScore": 0.72,
+        "confidence": 0.82,
+        "summary": "先进制程良率提升，国产替代逻辑持续强化，AI芯片需求爆发带来产能利用率提升。",
+        "analyzedAt": "2026-05-31T08:00:00",
+        "model": null,
+        "news": [
+          {
+            "id": "n1-00981",
+            "title": "中芯国际先进制程良率持续提升，国产替代逻辑强化",
+            "source": "澎湃新闻",
+            "publishDate": "2026-05-30",
+            "directUrl": "https://www.thepaper.cn/newsDetail_forward_12345678",
+            "sentiment": "positive",
+            "summary": "中芯国际14nm及以下制程良率达到业界水平，受益于AI芯片需求爆发，产能利用率接近饱和。",
+            "verificationStatus": "verified"
+          }
+        ]
+      }
+    }
+  ]
+}
